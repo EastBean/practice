@@ -10,6 +10,9 @@ int main(void){
     
     count = loadData(slist);
     curcount=count; 
+    if(count != 0) {
+	    curcount--;
+    }
 
     while (1){
         menu = selectMenu();
